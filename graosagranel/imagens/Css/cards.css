@@ -1,0 +1,50 @@
+.container {
+    
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 35px;
+    padding: 80px 0;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: rgb(219, 217, 217);
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(100, 201, 33, 0.5);
+}
+
+.face {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover .face.face2 {
+height: 60px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+.card:nth-child(1) .face.face2 {
+background-image: url("../Css/imagens/tempero.png") ;
+border-radius: 10px;
+}
+
+.card:nth-child(2) .face.face2 {
+background-image:url("../Css/imagens/grao-de-trigo.png");
+border-radius: 15px;
+}
+
+.card:nth-child(3) .face.face2 {
+background-image: url("../Css/imagens/vegan.png");
+border-radius: 15px;
+}

@@ -1,0 +1,31 @@
+
+body{
+    background-image: linear-gradient( to right, rgb(237, 241, 233) , rgba(255, 255, 255, 0));
+}
+
+header{
+    background-color: rgba(96, 177, 88, 0.712);
+    width: 100%;
+    height: 140px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    align-items: center;
+    border-radius: 0.1cm;
+    margin-bottom: 30px;
+    box-shadow: #070707;
+    box-shadow: 0 15px 60px rgba(54, 148, 0, 0.678);
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav ul li a{
+    margin: 0 15px;
+    color: #2C7500;
+
+}
