@@ -35,12 +35,15 @@
 }
 
 .row.row-cols-auto {
+    justify-items: center;
+    background-image: url("../Css/imagens/linha.jpg");
+    background-color : rgb(202, 169, 169);
     position:static fixed-;
     font-size: 15PX;
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 2px;
     text-align: center;
     font-family: marmelad;
     grid-gap: 35px;
@@ -61,4 +64,37 @@ h3{
   font-family: marmelad;
 }
 
+.alimentacaoE{
+    margin: 10px;
+    text-align: center;
+    font-family: marmelad;
+    right: 10px;
+    font-size: 28px;
+}
 
+.clearfix{
+    border-radius: 3px;
+    background-color: rgb(230, 208, 182);
+    margin: 50px;
+    align-items: center;
+    font-family: marmelad;
+    font-size: 28px;
+}
+
+.btn.btn-end{
+    margin: 80px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+body{
+    background: rgb(231, 238, 238);
+}
+
+.container-fluid{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: marmelad;
+    text-align: center;
+}
