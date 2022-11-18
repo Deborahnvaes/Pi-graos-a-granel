@@ -36,8 +36,7 @@
 
 .row.row-cols-auto {
     justify-items: center;
-    background-image: url("../Css/imagens/linha.jpg");
-    background-color : rgb(202, 169, 169);
+    background-color : rgb(206, 201, 201);
     position:static fixed-;
     font-size: 15PX;
     text-align: center;
@@ -97,4 +96,41 @@ body{
     font-size: 30px;
     font-family: marmelad;
     text-align: center;
+}
+
+.opcoesP{
+    align-items: center;
+    margin-left: 80px;
+    justify-items: center;
+    font-size: 25PX;
+}
+
+.card{
+    background: row;
+    
+
+}
+.card-group{
+    margin: 70px;
+    align-items: center;
+    width: 1000px;
+}
+
+.card{
+    left: 10%;
+    list-style: none;
+    margin: 25px;
+}
+.card-title{
+    padding: 10PX;
+    color: black;
+    font-size: medium;
+    font-family: marmelad;
+    text-align: center;
+    position:static;
+}
+.btn.btn-primary{
+    margin-left: 50px;
+    align-items: center;
+    color: rgb(0, 0, 0);
 }

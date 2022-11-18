@@ -26,5 +26,15 @@
 
 .btn:hover{
     background-color: rgba(0, 0, 0, 0.26);
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
+}
+
+.btn.btn-p{
+    font-family: marmelad;
+    margin:-2px;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 30px;
+    align-items:center  ;
 }
