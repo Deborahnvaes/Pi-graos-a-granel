@@ -134,3 +134,8 @@ body{
     align-items: center;
     color: rgb(0, 0, 0);
 }
+
+.card.h-100.shadow-sm{
+    font-family: marmelad;
+    font-size: 20px;
+}
