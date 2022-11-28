@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap do Css-->
+    <link rel="stylesheet" href="./imagens/Css/assets/css/bootstrap.min.css">
+    <title>Grãos à Granel</title>
+    <link rel="stylesheet" type="text/css" href="./imagens/Css/style.css" />
+</head>
+
+<body style="background-image:url('./imagens/Css/imagens/pexels-alexis-lozano-10060932.jpg')">
+    <div class="container">
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paraloguin"></a>
+
+        <div cl="content">
+            <!--formulário do loguin-->
+            <div id="loguin">
+                <form method="post" action="">
+                    <h1>Loguin</h1>
+                    <p>
+                        <label for="email_loguin">Digite seu E-mail:</label>
+                        <input id="email_loguin" name="email_loguin" required="required" type="text" placeholder="seuemail@hotmail.com">
+                    </p>
+
+                    <p>
+                     <label for="senha_loguin">Digite sua senha:</label>                           
+                     <input id="senha_loguin" name="senha_loguin" required="required" type="password" placeholder="******">
+
+                    </p>
+                    <p>
+                    <input type="checkbox" name="manterlogado" id="manterlogado" value="Logar"/>
+                    <label for="manterlogado">Manter-me Logado</label>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Logar"/> 
+                    </p>
+                    <p class="link">Ainda não tem conta?
+                        <a href="#paraCadastro"> Cadastre-se</a>
+                    </p>
+                </form>
+                <div id="cadastro" >
+                    <form method="post" action="">Cadastro</form>
+                    <p>
+                        <label for="nome_cadastro">Seu Nome</label>
+                        <input id="nome_cadastro" name="nome_cadastro" required="required" type="text" placeholder="Seu Nome aqui"/>
+                    </p>
+
+                    <p>
+                        <label for="senha_cadastro">Sua Senha</label>
+                        <input id="senha_cadastro" name="senha_cadastro" required="required" type="password" placeholder="1234">
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Cadastrar">
+                    </p>
+
+                    <p class="link">
+                        Já tem uma conta?
+                        <a href="#paraloguin">Ir para Loguin</a>
+                    </p>
+                </div>
+                <form>
+
+
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+<script src="./imagens/Css/assets/js/bootstrap.bundle.min.js"></script>
+<script src="./imagens/Css/assets/js/popper.min.js"></script>
+<script src="./imagens/Css/assets/js/bootstrap.min.js"></script>
+</html>
